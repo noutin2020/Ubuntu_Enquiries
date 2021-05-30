@@ -1,0 +1,12 @@
+#######https://askubuntu.com/questions/1031050/ubuntu-installing-error
+Unable to Locate Package xxx
+Goto https://packages.ubuntu.com and search for the package name.
+In case the package xxx is available under universe or multiuniverse
+Try the following commands
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install NAME OF THE PACKAGE
+
+
+
+
